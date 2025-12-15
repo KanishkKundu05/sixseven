@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #0a0a0a;
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -34,24 +34,16 @@ body {
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem;
   width: 100%;
+  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  gap: 3rem;
 }
 
 .hero-video-container {
-  width: 100%;
   max-width: 800px;
-  aspect-ratio: 16/9;
-  border-radius: 1rem;
   overflow: hidden;
-  box-shadow: 0 0 50px rgba(100, 108, 255, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.1);
   background: #000;
 }
 
